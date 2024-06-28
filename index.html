@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Social link profile</title>
+  <style>
+    .container{
+      height: 100vh;
+     background-color: #141414;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+    }
+    .outercontainer{
+      background-color: #1F1F1F;
+      height: 67vh;
+      width: 22vw;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      border-radius: 8px;
+    }
+    img{
+      height: 10vh;
+      width: 10vh;
+      border-radius: 50%;
+    }
+    .name{
+      color: white;
+      text-align: center;
+    }
+  .name span{
+    color: palegreen
+  }
+    .otherpara{
+      color: white;
+    }
+  button{
+    background-color: #333333;
+    color: white;
+    width: 15vw;
+    height: 6vh;
+    margin: 5px;
+    border-radius: 4px;
+  }
+  button:hover{
+    cursor: pointer;
+    background-color: palegreen;
+  }
+  @media (max-width: 376px) {
+    .outercontainer{
+      height: 80vh;
+      width: 80vw;
+    }
+    button{
+      width: 70vw;
+      height: 7vh;
+    }
+  }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="outercontainer">
+      <div><img src="/assets/images/avatar-jessica.jpeg"
+       alt="process"></div>
+       <div class="name"><p>Jessica Randall<br><span>London, United Kingdom</span></p></div>
+       <div class="otherpara"><p>Front-end developer and avid reader</p></div>
+      <div class="button">
+        <div><button>Github</button></div>
+        <div><button>Frontend Mentor</button></div>
+        <div><button>Linkedin</button></div>
+        <div><button>Twitter</button></div>
+        <div><button>Instagram</button></div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
